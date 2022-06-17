@@ -1,19 +1,27 @@
-import { Navbar, Footer, Loader,Services,Transactions, Welcome } from "./components"
-
-const  App =() => {
-
-
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from "./Home"
+import AboutUs from "./components/AboutUs";
+  
+function App() {
   return (
-    <div className="min-h-screen">
-      <div className="gradient-bg-welcome">
-        <Navbar />
-        <Welcome />
-      </div>
-      
-      <Transactions />
-      <Footer />         
-    </div>
+    
+      <Router>
+        <div >
+        <Routes>
+            <Route path="/" element={<Home />} />
+        </Routes>
+        <Routes>
+           <Route path ='/about' element={<AboutUs/>} />
+        </Routes>
+        </div>
+      </Router>
+    
   );
 }
-
-export default App
+  
+export default App;
