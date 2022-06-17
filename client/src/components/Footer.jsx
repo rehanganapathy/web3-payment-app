@@ -10,13 +10,13 @@ const Footer = () => (
     </div>
 
     <div className="flex justify-center items-center flex-col mt-5">
-      <p className="text-white text-sm text-center text-3xl">
+      <p className="text-white text-center text-3xl">
       <div className="pl-5 flex items-center justify-center" >
         <img src={logo} alt="logo" className="w-40" />
       </div>
        Usher in the next leap of growth </p>
        <br/>
-       <Link to="/about" className="text-white text-sm text-center text-3xl">
+       <Link to="/about" className="text-white text-center text-3xl">
         About Us
        </Link>
        <br />
