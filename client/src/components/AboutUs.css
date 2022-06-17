@@ -1,0 +1,6 @@
+.gradient-bg-aboutus {
+    background: #010101;
+    background: -webkit-linear-gradient(top, #010101, #4A4659);
+    background: -moz-linear-gradient(top, #010101, #4A4659);
+    background: linear-gradient(to bottom, #010101, #4A4659);
+  }

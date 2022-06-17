@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../images/logo.png'
+import { FaGithub } from "react-icons/fa";
 
 function AboutUs() {
   return (
@@ -7,7 +8,8 @@ function AboutUs() {
       <div className='flex w-full justify-center items-center'>
       <img src = {logo} alt = "logo" className = "w-40 align-content: center"  />
       </div>
-      <div className='align-content: space-evenly'>
+      <div className='pl-20 justify-center pr-20'>
+      <div className='className="text-white text-3xl text-center my-2"'>
         About Decage
       </div>
 
@@ -28,15 +30,18 @@ Every transaction you make is added to the blockchain with a giphy corresponding
 </p><br/>
 
 <p>
-crypto enthusiasts behind this
+Crypto enthusiasts behind this
 </p><br/>
 
-we are a team of 3 computer science engineers from PES university who are crypto enthusiasts and have been exploring a lot in this domain past a few years. 
+We are a team of 3 computer science engineers from PES university who are crypto enthusiasts and have been exploring a lot in this domain past a few years. 
 <br/><br/>
-rakshika - (github link)<br/>
-rehan - (github link)<br/>
-praneeth - (github link)<br/>
-
+<div className='flex w-full'>
+Rakshika ---<a href='https://github.com/rakshikasprasad'> <FaGithub/></a><br/></div>
+<div className='flex w-full'>
+Rehan --- <a href='https://github.com/rehanganapathy'> <FaGithub/></a><br/></div>
+<div className='flex w-full'>
+Praneeth ---<a href='https://github.com/praneethk002'><FaGithub/></a><br/></div>
+</div>
     </div>
   )
 }

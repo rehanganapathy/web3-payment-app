@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
 
 const Footer = () => (
@@ -15,6 +15,10 @@ const Footer = () => (
         <img src={logo} alt="logo" className="w-32 " />
       </div>
        Usher in the next leap of growth </p>
+       <br />
+       <Link to="/about">
+       <p className="text-white text-sm text-center">About us</p>
+       </Link>
       <p className="text-white text-sm text-center font-medium mt-2">info@decage.com</p>
     </div>
 

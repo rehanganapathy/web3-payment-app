@@ -28,6 +28,7 @@ body {
 }
 
 .gradient-bg-transactions {
+  
   background: #010101;
 background: -webkit-linear-gradient(bottom, #010101, #4A4659);
 background: -moz-linear-gradient(bottom, #010101, #4A4659);
@@ -35,6 +36,13 @@ background: linear-gradient(to top, #010101, #4A4659);
 }
 
 .gradient-bg-footer {
+  background: #010101;
+background: -webkit-linear-gradient(top, #010101, #4A4659);
+background: -moz-linear-gradient(top, #010101, #4A4659);
+background: linear-gradient(to bottom, #010101, #4A4659);
+}
+.gradient-bg-aboutus {
+  height: 100%;
   background: #010101;
 background: -webkit-linear-gradient(top, #010101, #4A4659);
 background: -moz-linear-gradient(top, #010101, #4A4659);
