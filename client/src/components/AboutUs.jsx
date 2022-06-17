@@ -62,7 +62,7 @@ Praneeth ---<a href='https://github.com/praneethk002'><FaGithub/></a><br/></div>
     <div className="flex justify-center items-center flex-col">
       <p className="text-white  text-center text-3xl">
       <div className="pl-5 flex items-center justify-center" >
-        <img src={logo} alt="logo" className="w-35" />
+        <img src={logo} alt="logo" className="w-32" />
       </div>
        Usher in the next leap of growth </p>
       
