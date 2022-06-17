@@ -130,6 +130,7 @@ export const TransactionProvider = ({children}) => {
             const transactionCount = await transactionContract.getTransactionCount();
     
             setTransactionCount(transactionCount.toNumber());
+            window.location.reload();
             
           } else {
             console.log("No ethereum object");
@@ -150,7 +151,7 @@ export const TransactionProvider = ({children}) => {
     },[]);
 
     return(
-        <TransactionContext.Provider value={{connectWallet, currentAccount, formData, setformData, handleChange, sendTransaction, transactions}}>
+        <TransactionContext.Provider value={{connectWallet, currentAccount, formData, setformData, handleChange, sendTransaction, transactions, isLoading}}>
             {children}
         </TransactionContext.Provider>
     )
