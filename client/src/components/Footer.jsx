@@ -10,15 +10,17 @@ const Footer = () => (
     </div>
 
     <div className="flex justify-center items-center flex-col mt-5">
-      <p className="text-white text-sm text-center">
-      <div className="pl-10" >
-        <img src={logo} alt="logo" className="w-32 " />
+      <p className="text-white text-sm text-center text-3xl">
+      <div className="pl-5 flex items-center justify-center" >
+        <img src={logo} alt="logo" className="w-40" />
       </div>
        Usher in the next leap of growth </p>
-       <br />
-       <Link to="/about">
-       <p className="text-white text-sm text-center">About us</p>
+       <br/>
+       <Link to="/about" className="text-white text-sm text-center text-3xl">
+        About Us
        </Link>
+       <br />
+      
       <p className="text-white text-sm text-center font-medium mt-2">info@decage.com</p>
     </div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 import logo from "../../images/logo.png";
 
@@ -13,6 +13,7 @@ const Navbar = () => {
       <div className=" flex-initial ">
         <img src={logo} alt="logo" className="w-32 cursor-pointer object-cover h-30 w-60" />
       </div>
+      
     </nav>
   );
 };

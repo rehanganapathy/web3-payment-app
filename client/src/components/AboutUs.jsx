@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../images/logo.png'
 import { FaGithub } from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
 function AboutUs() {
   return (
     <div className='min-h-screen gradient-bg-aboutus text-white height-100vh'>
@@ -9,7 +9,7 @@ function AboutUs() {
       <img src = {logo} alt = "logo" className = "w-40 align-content: center"  />
       </div>
       <div className='pl-20 justify-center pr-20'>
-      <div className='className="text-white text-3xl text-center my-2"'>
+      <div className='className="text-white text-3xl text-center my-2 text-gradient py-1"'>
         About Decage
       </div>
 
@@ -42,7 +42,16 @@ Rehan --- <a href='https://github.com/rehanganapathy'> <FaGithub/></a><br/></div
 <div className='flex w-full'>
 Praneeth ---<a href='https://github.com/praneethk002'><FaGithub/></a><br/></div>
 </div>
+<div>
+ <Link to='/'>
+<div className='className="text-white text-2xl text-center my-2"'>
+        Back to HomePage
+      </div>
+      </Link>
+</div>
     </div>
+
+
   )
 }
 

@@ -1,5 +1,7 @@
 import { Navbar, Footer, Transactions, Welcome, AboutUs } from "./components"
 import './Home.css'
+
+
 const  App =() => {
 
 
