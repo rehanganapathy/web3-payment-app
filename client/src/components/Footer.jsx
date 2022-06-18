@@ -16,17 +16,20 @@ const Footer = () => {
     </div>
 
     <div className="flex justify-center items-center flex-col mt-5 ">
-      <p className="text-white  text-center text-3xl">
-      <div className="pl-5 flex items-center justify-center w-full" >
-        <img src={logo} alt="logo" className="w-40" />
-      </div>
-       Usher in the next leap of growth </p>
+      
        <br/>
+     {currentAccount &&
       <div className="w-full">
       <iframe className="w-full h-full" src={`https://rinkeby.etherscan.io/address/${currentAccount}`}>
             
             </iframe>
        </div>
+}
+<p className="text-white  text-center text-3xl">
+      <div className="pl-5 flex items-center justify-center w-full" >
+        <img src={logo} alt="logo" className="w-40" />
+      </div>
+       Usher in the next leap of growth </p>
        <Link to="/about" className="text-white  text-center text-3xl">
         About Us
        </Link>
